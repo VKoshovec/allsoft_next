@@ -1,7 +1,7 @@
 export default function Navbar () {
     return (<header>
         <nav>
-            <ul className="m-10">
+            <ul className="m-1">
                 <li>Програмне забезпечення</li>
                 <li>Послуги супрводу</li>
                 <li>Послуги розробки</li>
