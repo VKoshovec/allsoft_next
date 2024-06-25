@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Navbar from "./componenets/Navbar";
 
 export default function Home() {
   return (
     <main>
-
+      <Navbar/>
     </main>
   );
 }

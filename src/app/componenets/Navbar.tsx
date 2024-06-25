@@ -1,9 +1,7 @@
-import React from "react"
-
 export default function Navbar () {
     return (<header>
-        <nav className="">
-            <ul>
+        <nav>
+            <ul className="m-10">
                 <li>Програмне забезпечення</li>
                 <li>Послуги супрводу</li>
                 <li>Послуги розробки</li>
