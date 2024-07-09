@@ -1,11 +1,12 @@
-import Navbar from "./componenets/Navbar";
+import Header from "./componenets/Header/Header";
+import Navbar from "./componenets/Navbar/Navbar";
 
 export default function Home() {
   return (
     <main>
-      <header className="border-b-2 border-blue-500">
+      <Header>
         <Navbar/>
-      </header>
+      </Header>
     </main>
   );
 }
