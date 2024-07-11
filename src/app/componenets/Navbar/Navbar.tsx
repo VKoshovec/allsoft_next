@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import css from './navbar.module.scss';
 import Image from "next/image";
 import clsx from "clsx";
+import Logo from "../Logo/Logo";
 
 export interface NavbarProps {};
 
@@ -25,7 +26,7 @@ export default function Navbar ({}: NavbarProps) {
             alt="menu"
             onClick={()=>{handleSandwitchClick()}} />
        
-        <nav className={ clsx(css.navbar, show && css.navbarshown) }>
+        <nav className={ clsx(css.navbar, show && css.navbarshown) }> 
             <ul className={ css.navbarlist } onClick={()=>{handleSandwitchClick()}}>
                 <li>Програми</li>
                 <li>Супровід</li>
