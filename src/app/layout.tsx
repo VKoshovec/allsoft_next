@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
+import clsx from "clsx";
 
 const inter = Roboto ({ subsets: ["cyrillic"], weight:['500']});
 
@@ -16,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={clsx(inter.className)}>{children}</body>
     </html>
   );
 }

@@ -8,5 +8,10 @@
 @media screen and (min-width: 701px){
     .Logo{
         padding: 10px;
+        padding-top: 12px;
+        &:hover{
+            transform: scale(110%);
+            text-shadow: 3px 3px 1px rgb(105, 134, 186);
+        }
     }
 }

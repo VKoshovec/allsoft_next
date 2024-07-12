@@ -46,42 +46,15 @@
   }
 };
 
-// @media screen and (min-width: 480px) and (max-width: 700px){
 
-//     .navbar{
-
-//         width: 80%;
-//         margin: auto;
-//         padding: 20px;
-//         background-color: bisque;
-    
-//         &list{
-//             display: flex;
-//             justify-content: space-around;
-//             flex-wrap: wrap;
-//             gap: 10px;
-
-//             & li{
-//                 &:hover{
-//                     transform: scale(110%);
-//                 }
-//             };
-//         }
-//     };
-    
-//     .sandwich{
-//         display: none;
-//     }
-// };
 
 @media screen and (min-width: 701px) {
 
     .navbar{
 
-        width: 70%;
+        width: 80%;
         margin: auto;
-        padding: 20px;
-        // background-color: bisque;
+        padding: 10px;
     
         &list{
             display: flex;
@@ -90,8 +63,10 @@
             gap: 10px;
             
             & li{
+                font-size: 18px;
                 &:hover{
                     transform: scale(110%);
+                    text-shadow: 3px 3px 1px rgb(105, 134, 186);
                 }
             };
         }
